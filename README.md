@@ -57,3 +57,4 @@
 
 ### 四、效果示例
 ---
+![CYPasswordView](https://github.com/chernyog/CYPasswordView/blob/master/CYPasswordViewDemo/CYPasswordViewDemo/CYPasswordViewDemo.gif "CYPasswordView示例")
