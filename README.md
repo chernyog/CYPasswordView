@@ -52,7 +52,6 @@
 
 * 设置对话框标题
 ``` objc
-/** 密码框的标题 */
 @property (nonatomic, copy) NSString *title;
 ```
 
