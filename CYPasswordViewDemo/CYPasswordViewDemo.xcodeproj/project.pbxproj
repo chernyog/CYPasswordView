@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C053A41BD205FE008889D3 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C053A01BD205FE008889D3 /* MBProgressHUD+MJ.m */; settings = {ASSET_TAGS = (); }; };
+		18C053A51BD205FE008889D3 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18C053A11BD205FE008889D3 /* MBProgressHUD.bundle */; settings = {ASSET_TAGS = (); }; };
+		18C053A61BD205FE008889D3 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C053A31BD205FE008889D3 /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
+		9AE0840E1BC6B61100BA6950 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE0840D1BC6B61100BA6950 /* main.m */; };
+		9AE084111BC6B61100BA6950 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE084101BC6B61100BA6950 /* AppDelegate.m */; };
+		9AE084141BC6B61100BA6950 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE084131BC6B61100BA6950 /* ViewController.m */; };
+		9AE084171BC6B61100BA6950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE084151BC6B61100BA6950 /* Main.storyboard */; };
+		9AE084191BC6B61100BA6950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE084181BC6B61100BA6950 /* Assets.xcassets */; };
+		9AE0841C1BC6B61100BA6950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE0841A1BC6B61100BA6950 /* LaunchScreen.storyboard */; };
+		9AE084261BC6B64600BA6950 /* CYConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE084251BC6B64600BA6950 /* CYConst.m */; settings = {ASSET_TAGS = (); }; };
+		9AE084291BC6B67B00BA6950 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE084281BC6B67B00BA6950 /* UIView+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		9AE0842B1BC6B75500BA6950 /* CYPasswordView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9AE0842A1BC6B75500BA6950 /* CYPasswordView.bundle */; settings = {ASSET_TAGS = (); }; };
+		9AE0842E1BC6B81700BA6950 /* CYPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE0842D1BC6B81700BA6950 /* CYPasswordInputView.m */; settings = {ASSET_TAGS = (); }; };
+		9AE084311BC6B82700BA6950 /* CYPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE084301BC6B82700BA6950 /* CYPasswordView.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18C0539F1BD205FE008889D3 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		18C053A01BD205FE008889D3 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		18C053A11BD205FE008889D3 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		18C053A21BD205FE008889D3 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		18C053A31BD205FE008889D3 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		9AE084091BC6B61100BA6950 /* CYPasswordViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYPasswordViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE0840D1BC6B61100BA6950 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AE0840F1BC6B61100BA6950 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AE084101BC6B61100BA6950 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AE084121BC6B61100BA6950 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9AE084131BC6B61100BA6950 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AE084161BC6B61100BA6950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AE084181BC6B61100BA6950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AE0841B1BC6B61100BA6950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AE0841D1BC6B61100BA6950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AE084241BC6B64600BA6950 /* CYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYConst.h; sourceTree = "<group>"; };
+		9AE084251BC6B64600BA6950 /* CYConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYConst.m; sourceTree = "<group>"; };
+		9AE084271BC6B67B00BA6950 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		9AE084281BC6B67B00BA6950 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		9AE0842A1BC6B75500BA6950 /* CYPasswordView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CYPasswordView.bundle; sourceTree = "<group>"; };
+		9AE0842C1BC6B81700BA6950 /* CYPasswordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPasswordInputView.h; sourceTree = "<group>"; };
+		9AE0842D1BC6B81700BA6950 /* CYPasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPasswordInputView.m; sourceTree = "<group>"; };
+		9AE0842F1BC6B82700BA6950 /* CYPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPasswordView.h; sourceTree = "<group>"; };
+		9AE084301BC6B82700BA6950 /* CYPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPasswordView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AE084061BC6B61100BA6950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C0539E1BD205FE008889D3 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				18C0539F1BD205FE008889D3 /* MBProgressHUD+MJ.h */,
+				18C053A01BD205FE008889D3 /* MBProgressHUD+MJ.m */,
+				18C053A11BD205FE008889D3 /* MBProgressHUD.bundle */,
+				18C053A21BD205FE008889D3 /* MBProgressHUD.h */,
+				18C053A31BD205FE008889D3 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		9AE084001BC6B61100BA6950 = {
+			isa = PBXGroup;
+			children = (
+				9AE0840B1BC6B61100BA6950 /* CYPasswordViewDemo */,
+				9AE0840A1BC6B61100BA6950 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AE0840A1BC6B61100BA6950 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AE084091BC6B61100BA6950 /* CYPasswordViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AE0840B1BC6B61100BA6950 /* CYPasswordViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9AE084231BC6B62700BA6950 /* CYPasswordView */,
+				9AE0840F1BC6B61100BA6950 /* AppDelegate.h */,
+				9AE084101BC6B61100BA6950 /* AppDelegate.m */,
+				9AE084121BC6B61100BA6950 /* ViewController.h */,
+				9AE084131BC6B61100BA6950 /* ViewController.m */,
+				9AE084151BC6B61100BA6950 /* Main.storyboard */,
+				18C0539E1BD205FE008889D3 /* MBProgressHUD */,
+				9AE084181BC6B61100BA6950 /* Assets.xcassets */,
+				9AE0841A1BC6B61100BA6950 /* LaunchScreen.storyboard */,
+				9AE0841D1BC6B61100BA6950 /* Info.plist */,
+				9AE0840C1BC6B61100BA6950 /* Supporting Files */,
+			);
+			path = CYPasswordViewDemo;
+			sourceTree = "<group>";
+		};
+		9AE0840C1BC6B61100BA6950 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AE0840D1BC6B61100BA6950 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AE084231BC6B62700BA6950 /* CYPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				9AE0842A1BC6B75500BA6950 /* CYPasswordView.bundle */,
+				9AE084241BC6B64600BA6950 /* CYConst.h */,
+				9AE084251BC6B64600BA6950 /* CYConst.m */,
+				9AE084271BC6B67B00BA6950 /* UIView+Extension.h */,
+				9AE084281BC6B67B00BA6950 /* UIView+Extension.m */,
+				9AE0842C1BC6B81700BA6950 /* CYPasswordInputView.h */,
+				9AE0842D1BC6B81700BA6950 /* CYPasswordInputView.m */,
+				9AE0842F1BC6B82700BA6950 /* CYPasswordView.h */,
+				9AE084301BC6B82700BA6950 /* CYPasswordView.m */,
+			);
+			path = CYPasswordView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AE084081BC6B61100BA6950 /* CYPasswordViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE084201BC6B61100BA6950 /* Build configuration list for PBXNativeTarget "CYPasswordViewDemo" */;
+			buildPhases = (
+				9AE084051BC6B61100BA6950 /* Sources */,
+				9AE084061BC6B61100BA6950 /* Frameworks */,
+				9AE084071BC6B61100BA6950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYPasswordViewDemo;
+			productName = CYPasswordViewDemo;
+			productReference = 9AE084091BC6B61100BA6950 /* CYPasswordViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AE084011BC6B61100BA6950 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CY;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = zhssit;
+				TargetAttributes = {
+					9AE084081BC6B61100BA6950 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 9AE084041BC6B61100BA6950 /* Build configuration list for PBXProject "CYPasswordViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AE084001BC6B61100BA6950;
+			productRefGroup = 9AE0840A1BC6B61100BA6950 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AE084081BC6B61100BA6950 /* CYPasswordViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AE084071BC6B61100BA6950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE0841C1BC6B61100BA6950 /* LaunchScreen.storyboard in Resources */,
+				9AE084191BC6B61100BA6950 /* Assets.xcassets in Resources */,
+				18C053A51BD205FE008889D3 /* MBProgressHUD.bundle in Resources */,
+				9AE084171BC6B61100BA6950 /* Main.storyboard in Resources */,
+				9AE0842B1BC6B75500BA6950 /* CYPasswordView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AE084051BC6B61100BA6950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE0842E1BC6B81700BA6950 /* CYPasswordInputView.m in Sources */,
+				9AE084291BC6B67B00BA6950 /* UIView+Extension.m in Sources */,
+				9AE084311BC6B82700BA6950 /* CYPasswordView.m in Sources */,
+				9AE084141BC6B61100BA6950 /* ViewController.m in Sources */,
+				18C053A61BD205FE008889D3 /* MBProgressHUD.m in Sources */,
+				18C053A41BD205FE008889D3 /* MBProgressHUD+MJ.m in Sources */,
+				9AE084111BC6B61100BA6950 /* AppDelegate.m in Sources */,
+				9AE0840E1BC6B61100BA6950 /* main.m in Sources */,
+				9AE084261BC6B64600BA6950 /* CYConst.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AE084151BC6B61100BA6950 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AE084161BC6B61100BA6950 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AE0841A1BC6B61100BA6950 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AE0841B1BC6B61100BA6950 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AE0841E1BC6B61100BA6950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AE0841F1BC6B61100BA6950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AE084211BC6B61100BA6950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYPasswordViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.develop.CYPasswordViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AE084221BC6B61100BA6950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYPasswordViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.develop.CYPasswordViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AE084041BC6B61100BA6950 /* Build configuration list for PBXProject "CYPasswordViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE0841E1BC6B61100BA6950 /* Debug */,
+				9AE0841F1BC6B61100BA6950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE084201BC6B61100BA6950 /* Build configuration list for PBXNativeTarget "CYPasswordViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE084211BC6B61100BA6950 /* Debug */,
+				9AE084221BC6B61100BA6950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AE084011BC6B61100BA6950 /* Project object */;
+}
