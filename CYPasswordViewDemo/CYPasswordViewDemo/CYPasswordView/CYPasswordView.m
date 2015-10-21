@@ -246,6 +246,7 @@ static NSString *tempStr;
         _txfResponsder = [[UITextField alloc] init];
         _txfResponsder.delegate = self;
         _txfResponsder.keyboardType = UIKeyboardTypeNumberPad;
+        _txfResponsder.secureTextEntry = YES;
     }
     return _txfResponsder;
 }
