@@ -48,6 +48,7 @@ static BOOL flag = NO;
     __weak ViewController *weakSelf = self;
     self.passwordView = [[CYPasswordView alloc] init];
     self.passwordView.title = @"输入交易密码";
+    self.passwordView.loadingText = @"提交中...";
     [self.passwordView showInView:self.view.window];
 
     self.passwordView.finish = ^(NSString *password) {
@@ -67,7 +68,7 @@ static BOOL flag = NO;
             } else {
                 CYLog(@"申购失败，跳转到失败页");
                 [MBProgressHUD showError:@"申购失败，做一些处理"];
-                [weakSelf.passwordView requestComplete:NO];
+                [weakSelf.passwordView requestComplete:NO message:@"申购失败，做一些处理"];
                 [weakSelf.passwordView stopLoading];
                 dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(kDelay * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                     [weakSelf.passwordView hide];

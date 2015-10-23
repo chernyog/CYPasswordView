@@ -5,8 +5,8 @@
 const CGFloat CYPasswordInputViewHeight = (196 + 216);
 const CGFloat CYPasswordViewTitleHeight = 55;
 const CGFloat CYPasswordViewAnimationDuration = 0.25;
-const CGFloat CYPasswordViewCloseButtonWH = 15;
-const CGFloat CYPasswordViewCloseButtonMarginLeft = 10;
+const CGFloat CYPasswordViewCloseButtonWH = 55;
+const CGFloat CYPasswordViewCloseButtonMarginLeft = 0;
 const CGFloat CYPasswordViewPointnWH = 10;
 const CGFloat CYPasswordViewTextFieldWidth = 297;
 const CGFloat CYPasswordViewTextFieldHeight = 50;

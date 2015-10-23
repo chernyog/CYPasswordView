@@ -215,6 +215,11 @@ static NSString *tempStr;
     self.passwordInputView.title = title;
 }
 
+- (void)setLoadingText:(NSString *)loadingText {
+    _loadingText = [loadingText copy];
+    self.lblMessage.text = loadingText;
+}
+
 #pragma mark  - 懒加载
 - (UIControl *)coverView
 {

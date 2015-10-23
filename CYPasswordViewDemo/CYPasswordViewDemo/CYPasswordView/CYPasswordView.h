@@ -12,6 +12,9 @@
 
 @interface CYPasswordView : UIView
 
+/** 正在请求时显示的文本 */
+@property (nonatomic, copy) NSString *loadingText;
+
 /** 完成的回调block */
 @property (nonatomic, copy) void (^finish) (NSString *password);
 
