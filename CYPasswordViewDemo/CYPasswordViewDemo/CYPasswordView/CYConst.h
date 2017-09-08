@@ -17,7 +17,7 @@
 #define CYFontB(f) [UIFont boldSystemFontOfSize:(f)]
 
 // 图片路径
-#define CYPasswordViewSrcName(file) [@"CYPasswordView.bundle" stringByAppendingPathComponent:file]
+//#define CYPasswordViewSrcName(file) [@"CYPasswordView.bundle" stringByAppendingPathComponent:file]
 
 /** 屏幕的宽高 */
 #define CYScreen [UIScreen mainScreen]

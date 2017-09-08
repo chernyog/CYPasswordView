@@ -158,11 +158,11 @@ static NSString *tempStr;
     if (state) {
         // 请求成功
         self.lblMessage.text = message;
-        self.imgRotation.image = [UIImage imageNamed:CYPasswordViewSrcName(@"password_success")];
+        self.imgRotation.image = [NSBundle cy_successImage];
     } else {
         // 请求失败
         self.lblMessage.text = message;
-        self.imgRotation.image = [UIImage imageNamed:CYPasswordViewSrcName(@"password_error")];
+        self.imgRotation.image = [NSBundle cy_errorImage];
     }
 }
 
@@ -259,7 +259,7 @@ static NSString *tempStr;
 - (UIImageView *)imgRotation {
     if (_imgRotation == nil) {
         _imgRotation = [[UIImageView alloc] init];
-        _imgRotation.image = [UIImage imageNamed:CYPasswordViewSrcName(@"password_loading_a")];
+        _imgRotation.image = [NSBundle cy_loadingImage];
         [_imgRotation sizeToFit];
         _imgRotation.hidden = YES;
     }
