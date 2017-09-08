@@ -8,6 +8,10 @@
 
 ### 二、使用方法
 ---
+#### 使用 CocoaPods 
+`pod 'CYPasswordView'`
+
+#### 手动导入文件
 1. 将`CYPasswordView`文件夹添加到项目中
 2. 导入主头文件`#import "CYPasswordView.h"`
 
