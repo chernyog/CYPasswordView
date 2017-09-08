@@ -6,7 +6,7 @@
 //  Copyright © 2017年 zhssit. All rights reserved.
 //
 
-#import "NSBundle+NSBundle_CYPasswordView.h"
+#import "NSBundle+CYPasswordView.h"
 #import "CYPasswordView.h"
 
 @implementation NSBundle (NSBundle_CYPasswordView)

@@ -9,7 +9,7 @@
 #import "CYPasswordInputView.h"
 #import "CYConst.h"
 #import "UIView+Extension.h"
-#import "NSBundle+NSBundle_CYPasswordView.h"
+#import "NSBundle+CYPasswordView.h"
 
 #define kNumCount 6
 
