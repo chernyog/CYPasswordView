@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "CYPasswordInputView.h"
 #import "CYConst.h"
+#import "NSBundle+NSBundle_CYPasswordView.h"
 
 @interface CYPasswordView : UIView
 

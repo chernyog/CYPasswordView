@@ -9,6 +9,7 @@
 #import "CYPasswordInputView.h"
 #import "CYConst.h"
 #import "UIView+Extension.h"
+#import "NSBundle+NSBundle_CYPasswordView.h"
 
 #define kNumCount 6
 
@@ -64,7 +65,7 @@
     /** 关闭按钮 */
     UIButton *btnCancel = [UIButton buttonWithType:UIButtonTypeCustom];
     [self addSubview:btnCancel];
-    [btnCancel setBackgroundImage:[UIImage imageNamed:CYPasswordViewSrcName(@"password_close")] forState:UIControlStateNormal];
+    [btnCancel setBackgroundImage:[NSBundle cy_closeImage] forState:UIControlStateNormal];
     [btnCancel setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
     self.btnClose = btnCancel;
     [self.btnClose addTarget:self action:@selector(btnClose_Click:) forControlEvents:UIControlEventTouchUpInside];
@@ -108,8 +109,8 @@
 
 - (void)drawRect:(CGRect)rect {
     // 画图
-    UIImage *imgBackground = [UIImage imageNamed:CYPasswordViewSrcName(@"password_background")];
-    UIImage *imgTextfield = [UIImage imageNamed:CYPasswordViewSrcName(@"password_textfield")];
+    UIImage *imgBackground = [NSBundle cy_backgroundImage];
+    UIImage *imgTextfield = [NSBundle cy_textfieldImage];
 
     [imgBackground drawInRect:rect];
 
@@ -136,7 +137,7 @@
     [title drawInRect:titleRect withAttributes:attr];
 
     // 画点
-    UIImage *pointImage = [UIImage imageNamed:CYPasswordViewSrcName(@"password_point")];
+    UIImage *pointImage = [NSBundle cy_pointImage];
     CGFloat pointW = CYPasswordViewPointnWH;
     CGFloat pointH = CYPasswordViewPointnWH;
     CGFloat pointY =  textfieldY + (textfieldH - pointH) * 0.5;

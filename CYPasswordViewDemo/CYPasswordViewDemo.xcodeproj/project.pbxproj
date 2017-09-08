@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18A5354E1F62EEFB00A23CE9 /* NSBundle+NSBundle_CYPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5354D1F62EEFB00A23CE9 /* NSBundle+NSBundle_CYPasswordView.m */; };
+		18A5355D1F62F6B800A23CE9 /* CYConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A535531F62F6B800A23CE9 /* CYConst.m */; };
+		18A5355E1F62F6B800A23CE9 /* CYPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A535551F62F6B800A23CE9 /* CYPasswordInputView.m */; };
+		18A5355F1F62F6B800A23CE9 /* CYPasswordView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18A535561F62F6B800A23CE9 /* CYPasswordView.bundle */; };
+		18A535601F62F6B800A23CE9 /* CYPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A535581F62F6B800A23CE9 /* CYPasswordView.m */; };
+		18A535611F62F6B800A23CE9 /* NSBundle+NSBundle_CYPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5355A1F62F6B800A23CE9 /* NSBundle+NSBundle_CYPasswordView.m */; };
+		18A535621F62F6B800A23CE9 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5355C1F62F6B800A23CE9 /* UIView+Extension.m */; };
 		18C053A41BD205FE008889D3 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C053A01BD205FE008889D3 /* MBProgressHUD+MJ.m */; };
 		18C053A51BD205FE008889D3 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18C053A11BD205FE008889D3 /* MBProgressHUD.bundle */; };
 		18C053A61BD205FE008889D3 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C053A31BD205FE008889D3 /* MBProgressHUD.m */; };
@@ -17,16 +22,20 @@
 		9AE084171BC6B61100BA6950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE084151BC6B61100BA6950 /* Main.storyboard */; };
 		9AE084191BC6B61100BA6950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE084181BC6B61100BA6950 /* Assets.xcassets */; };
 		9AE0841C1BC6B61100BA6950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE0841A1BC6B61100BA6950 /* LaunchScreen.storyboard */; };
-		9AE084261BC6B64600BA6950 /* CYConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE084251BC6B64600BA6950 /* CYConst.m */; };
-		9AE084291BC6B67B00BA6950 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE084281BC6B67B00BA6950 /* UIView+Extension.m */; };
-		9AE0842B1BC6B75500BA6950 /* CYPasswordView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9AE0842A1BC6B75500BA6950 /* CYPasswordView.bundle */; };
-		9AE0842E1BC6B81700BA6950 /* CYPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE0842D1BC6B81700BA6950 /* CYPasswordInputView.m */; };
-		9AE084311BC6B82700BA6950 /* CYPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE084301BC6B82700BA6950 /* CYPasswordView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18A5354C1F62EEFB00A23CE9 /* NSBundle+NSBundle_CYPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NSBundle_CYPasswordView.h"; sourceTree = "<group>"; };
-		18A5354D1F62EEFB00A23CE9 /* NSBundle+NSBundle_CYPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NSBundle_CYPasswordView.m"; sourceTree = "<group>"; };
+		18A535521F62F6B800A23CE9 /* CYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYConst.h; sourceTree = "<group>"; };
+		18A535531F62F6B800A23CE9 /* CYConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYConst.m; sourceTree = "<group>"; };
+		18A535541F62F6B800A23CE9 /* CYPasswordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPasswordInputView.h; sourceTree = "<group>"; };
+		18A535551F62F6B800A23CE9 /* CYPasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPasswordInputView.m; sourceTree = "<group>"; };
+		18A535561F62F6B800A23CE9 /* CYPasswordView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CYPasswordView.bundle; sourceTree = "<group>"; };
+		18A535571F62F6B800A23CE9 /* CYPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPasswordView.h; sourceTree = "<group>"; };
+		18A535581F62F6B800A23CE9 /* CYPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPasswordView.m; sourceTree = "<group>"; };
+		18A535591F62F6B800A23CE9 /* NSBundle+NSBundle_CYPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NSBundle_CYPasswordView.h"; sourceTree = "<group>"; };
+		18A5355A1F62F6B800A23CE9 /* NSBundle+NSBundle_CYPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NSBundle_CYPasswordView.m"; sourceTree = "<group>"; };
+		18A5355B1F62F6B800A23CE9 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		18A5355C1F62F6B800A23CE9 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		18C0539F1BD205FE008889D3 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
 		18C053A01BD205FE008889D3 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
 		18C053A11BD205FE008889D3 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
@@ -42,15 +51,6 @@
 		9AE084181BC6B61100BA6950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AE0841B1BC6B61100BA6950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AE0841D1BC6B61100BA6950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AE084241BC6B64600BA6950 /* CYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYConst.h; sourceTree = "<group>"; };
-		9AE084251BC6B64600BA6950 /* CYConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYConst.m; sourceTree = "<group>"; };
-		9AE084271BC6B67B00BA6950 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		9AE084281BC6B67B00BA6950 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		9AE0842A1BC6B75500BA6950 /* CYPasswordView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CYPasswordView.bundle; sourceTree = "<group>"; };
-		9AE0842C1BC6B81700BA6950 /* CYPasswordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPasswordInputView.h; sourceTree = "<group>"; };
-		9AE0842D1BC6B81700BA6950 /* CYPasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPasswordInputView.m; sourceTree = "<group>"; };
-		9AE0842F1BC6B82700BA6950 /* CYPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPasswordView.h; sourceTree = "<group>"; };
-		9AE084301BC6B82700BA6950 /* CYPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPasswordView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +64,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A535511F62F6B800A23CE9 /* CYPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				18A535521F62F6B800A23CE9 /* CYConst.h */,
+				18A535531F62F6B800A23CE9 /* CYConst.m */,
+				18A535541F62F6B800A23CE9 /* CYPasswordInputView.h */,
+				18A535551F62F6B800A23CE9 /* CYPasswordInputView.m */,
+				18A535561F62F6B800A23CE9 /* CYPasswordView.bundle */,
+				18A535571F62F6B800A23CE9 /* CYPasswordView.h */,
+				18A535581F62F6B800A23CE9 /* CYPasswordView.m */,
+				18A535591F62F6B800A23CE9 /* NSBundle+NSBundle_CYPasswordView.h */,
+				18A5355A1F62F6B800A23CE9 /* NSBundle+NSBundle_CYPasswordView.m */,
+				18A5355B1F62F6B800A23CE9 /* UIView+Extension.h */,
+				18A5355C1F62F6B800A23CE9 /* UIView+Extension.m */,
+			);
+			name = CYPasswordView;
+			path = ../../CYPasswordView;
+			sourceTree = "<group>";
+		};
 		18C0539E1BD205FE008889D3 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +114,7 @@
 		9AE0840B1BC6B61100BA6950 /* CYPasswordViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9AE084231BC6B62700BA6950 /* CYPasswordView */,
+				18A535511F62F6B800A23CE9 /* CYPasswordView */,
 				9AE0840F1BC6B61100BA6950 /* AppDelegate.h */,
 				9AE084101BC6B61100BA6950 /* AppDelegate.m */,
 				9AE084121BC6B61100BA6950 /* ViewController.h */,
@@ -116,24 +135,6 @@
 				9AE0840D1BC6B61100BA6950 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9AE084231BC6B62700BA6950 /* CYPasswordView */ = {
-			isa = PBXGroup;
-			children = (
-				9AE0842A1BC6B75500BA6950 /* CYPasswordView.bundle */,
-				9AE084241BC6B64600BA6950 /* CYConst.h */,
-				9AE084251BC6B64600BA6950 /* CYConst.m */,
-				9AE084271BC6B67B00BA6950 /* UIView+Extension.h */,
-				9AE084281BC6B67B00BA6950 /* UIView+Extension.m */,
-				9AE0842C1BC6B81700BA6950 /* CYPasswordInputView.h */,
-				9AE0842D1BC6B81700BA6950 /* CYPasswordInputView.m */,
-				9AE0842F1BC6B82700BA6950 /* CYPasswordView.h */,
-				9AE084301BC6B82700BA6950 /* CYPasswordView.m */,
-				18A5354C1F62EEFB00A23CE9 /* NSBundle+NSBundle_CYPasswordView.h */,
-				18A5354D1F62EEFB00A23CE9 /* NSBundle+NSBundle_CYPasswordView.m */,
-			);
-			path = CYPasswordView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +199,7 @@
 				9AE084191BC6B61100BA6950 /* Assets.xcassets in Resources */,
 				18C053A51BD205FE008889D3 /* MBProgressHUD.bundle in Resources */,
 				9AE084171BC6B61100BA6950 /* Main.storyboard in Resources */,
-				9AE0842B1BC6B75500BA6950 /* CYPasswordView.bundle in Resources */,
+				18A5355F1F62F6B800A23CE9 /* CYPasswordView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,16 +210,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AE0842E1BC6B81700BA6950 /* CYPasswordInputView.m in Sources */,
-				9AE084291BC6B67B00BA6950 /* UIView+Extension.m in Sources */,
-				9AE084311BC6B82700BA6950 /* CYPasswordView.m in Sources */,
+				18A535621F62F6B800A23CE9 /* UIView+Extension.m in Sources */,
+				18A5355E1F62F6B800A23CE9 /* CYPasswordInputView.m in Sources */,
 				9AE084141BC6B61100BA6950 /* ViewController.m in Sources */,
 				18C053A61BD205FE008889D3 /* MBProgressHUD.m in Sources */,
-				18A5354E1F62EEFB00A23CE9 /* NSBundle+NSBundle_CYPasswordView.m in Sources */,
 				18C053A41BD205FE008889D3 /* MBProgressHUD+MJ.m in Sources */,
 				9AE084111BC6B61100BA6950 /* AppDelegate.m in Sources */,
+				18A535611F62F6B800A23CE9 /* NSBundle+NSBundle_CYPasswordView.m in Sources */,
+				18A535601F62F6B800A23CE9 /* CYPasswordView.m in Sources */,
 				9AE0840E1BC6B61100BA6950 /* main.m in Sources */,
-				9AE084261BC6B64600BA6950 /* CYConst.m in Sources */,
+				18A5355D1F62F6B800A23CE9 /* CYConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
