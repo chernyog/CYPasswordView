@@ -22,6 +22,7 @@
 		9AE084171BC6B61100BA6950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE084151BC6B61100BA6950 /* Main.storyboard */; };
 		9AE084191BC6B61100BA6950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE084181BC6B61100BA6950 /* Assets.xcassets */; };
 		9AE0841C1BC6B61100BA6950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE0841A1BC6B61100BA6950 /* LaunchScreen.storyboard */; };
+		F72E80F72518B71E00BAAACE /* UIDevice+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F72E80F62518B71E00BAAACE /* UIDevice+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		9AE084181BC6B61100BA6950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AE0841B1BC6B61100BA6950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AE0841D1BC6B61100BA6950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72E80F52518B6E000BAAACE /* UIDevice+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extension.h"; sourceTree = "<group>"; };
+		F72E80F62518B71E00BAAACE /* UIDevice+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				18A5355A1F62F6B800A23CE9 /* NSBundle+CYPasswordView.m */,
 				18A5355B1F62F6B800A23CE9 /* UIView+Extension.h */,
 				18A5355C1F62F6B800A23CE9 /* UIView+Extension.m */,
+				F72E80F52518B6E000BAAACE /* UIDevice+Extension.h */,
+				F72E80F62518B71E00BAAACE /* UIDevice+Extension.m */,
 			);
 			name = CYPasswordView;
 			path = ../../CYPasswordView;
@@ -177,6 +182,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -217,6 +223,7 @@
 				18C053A41BD205FE008889D3 /* MBProgressHUD+MJ.m in Sources */,
 				9AE084111BC6B61100BA6950 /* AppDelegate.m in Sources */,
 				18A535611F62F6B800A23CE9 /* NSBundle+CYPasswordView.m in Sources */,
+				F72E80F72518B71E00BAAACE /* UIDevice+Extension.m in Sources */,
 				18A535601F62F6B800A23CE9 /* CYPasswordView.m in Sources */,
 				9AE0840E1BC6B61100BA6950 /* main.m in Sources */,
 				18A5355D1F62F6B800A23CE9 /* CYConst.m in Sources */,

@@ -8,6 +8,7 @@
 
 #import "CYPasswordView.h"
 #import "UIView+Extension.h"
+#import "UIDevice+Extension.h"
 
 #define kPWDLength 6
 
@@ -129,7 +130,7 @@ static NSString *tempStr;
 {
     [view addSubview:self];
     /** 输入框起始frame */
-    self.passwordInputView.height = CYPasswordInputViewHeight;
+    self.passwordInputView.height = CYPasswordInputViewHeight + UIDevice.safeAreaInsets.bottom * 2;
     self.passwordInputView.y = self.height;
     self.passwordInputView.width = CYScreenWith;
     self.passwordInputView.x = 0;
